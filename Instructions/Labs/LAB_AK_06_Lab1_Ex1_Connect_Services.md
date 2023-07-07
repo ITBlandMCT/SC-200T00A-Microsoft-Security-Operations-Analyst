@@ -38,9 +38,11 @@ In this task, you will access your Microsoft Sentinel workspace.
 
 In this task, you will connect the Microsoft Defender for Cloud connector.
 
-1. From the Data Connectors tab, search for the **Microsoft Defender for Cloud** connector and select it from the list.
+1. Under *Content management* select *Content hub*, search for and select **Microsoft Defender for Cloud**, and then select **Install**.
 
-1. Select **Open connector page** on the connector information blade.
+1. After the install completes, in the navigation pane under *Configuration* select **Data connectors** and then select **Refresh**.
+
+1. Select **Microsoft Defender for Cloud** and then select **Open connector page** on the connector information blade.
 
 1. In the Configuration area, under Subscription, **select** the checkbox for the "Azure Pass - Sponsorship" subscription and slide the **Status** option to the right.
 
@@ -52,10 +54,16 @@ In this task, you will connect the Microsoft Defender for Cloud connector.
 
     >**Note:** This option creates automatically an Analytics rule for this connector. You can manually add it later if not enabled here or change its configuration within the *Analytics* blade.
 
+1. Select the **X** in the upper-right corner to return to the *Microsoft Sentinel* page.
+
 
 ### Task 3: Connect the Azure Activity connector
 
 In this task, you will connect the Azure Activity connector.
+
+1. Under *Content management* select *Content hub*, search for and select **Azure Activity**, and then select **Install**.
+
+1. After the install completes, in the navigation pane under *Configuration* select **Data connectors** and then select **Refresh**.
 
 1. From the Data Connectors Tab, search for the **Azure Activity** connector and select it from the list.
 
@@ -63,7 +71,7 @@ In this task, you will connect the Azure Activity connector.
 
 1. In the Configuration area, scroll down and under "2. Connect your subscriptions..." select **Launch Azure Policy Assignment Wizard>**.
 
-1. In the **Basics** tab, select the ellipsis button (...) under **Scope** and select your "Azure Pass - Sponsorship" subscription from the drop-down list and click **Select**.
+1. In the **Basics** tab, select the ellipsis button (...) under **Scope** and select your *"Azure Pass - Sponsorship"* subscription from the drop-down list and click **Select**.
 
 1. Select the **Parameters** tab, choose your *uniquenameDefender* workspace from the **Primary Log Analytics workspace** drop-down list.
 
