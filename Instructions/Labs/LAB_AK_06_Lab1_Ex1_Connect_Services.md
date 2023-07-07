@@ -81,4 +81,7 @@ In this task, you will connect the Azure Activity connector.
 
 1. Select **Create** to finish.
 
+1. Select the **X** in the upper-right corner to return to the *Microsoft Sentinel* page.
+
+
 ## Proceed to Exercise 2
