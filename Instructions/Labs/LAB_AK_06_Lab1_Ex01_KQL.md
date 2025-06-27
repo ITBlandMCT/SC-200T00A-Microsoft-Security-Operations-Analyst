@@ -37,13 +37,17 @@ In this task, you access a Log Analytics environment where you can practice writ
 
 1. Explore the available tables and other tools listed in the *schema and filter pane* on the left side of the screen.
 
+1. At the upper-right of the query editor, open the **Simple mode** drop-down and select **KQL mode**. If asked to make KQL mode the default, select **Save**.
+
+2. At the top of the query editor, click the **Show** pill and select **Max. limit** and then select **Apply**.
+
 1. In the query editor, enter the following query and select the **Run** button. You should see the query results in the bottom window.
 
     ```KQL
     SecurityEvent
     ```
 
-1. Notice that you have reached the maximum number of results (30,000).
+1. Notice that you have exceeded the maximum response size (~104 MB or 30,000 records).
 
 1. Change the *Time range* to **Last 7 days** in the Query Window.
 
